@@ -1,0 +1,18 @@
+extends layouts/default
+include helpers/mixins
+
+block variables
+	- const title = "HomePage"
+
+block content
+	//- include ../blocks/modules/header/header
+	include ../blocks/modules/footer/footer
+	//- include ../blocks/modules/menu/menu
+
+block scripts
+	script(src="js/vendor.js")
+	script(src="js/main.js")
+
+//- <body>
+//- <img src="src\img\favicon\fon.png", alt="Fon"/>
+//- </body>

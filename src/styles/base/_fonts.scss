@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Gilroy-Light";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy-Light.woff"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/Gilroy-Light.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/Gilroy-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy-Bold.woff"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/Gilroy-Bold.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/Gilroy-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy-SemiBold.woff"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/Gilroy-SemiBold.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/Gilroy-SemiBold.woff") format("woff");
+}

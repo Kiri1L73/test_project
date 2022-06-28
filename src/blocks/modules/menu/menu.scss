@@ -1,0 +1,197 @@
+.menu_list{
+    width: 394px;
+    height: 100%;
+    margin: 0px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50px 0px 0px 0px;
+    background: #5A98D0;
+    margin: 0;
+}
+
+.menuicon{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    right: 18px;
+    top: 29px; 
+}
+
+.vertmenu {
+    width: 344px;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    
+    // right: 0;
+    // border-radius: 50px 0px 0px 0px;
+    // background: #5A98D0;
+
+}
+
+.vertmenu ul {
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.vertmenu ul li {
+    font-family: Gilroy-SemiBold; 
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    position: relative;
+    margin: 0;
+    top: 0;
+    // text-transform: uppercase;   
+}
+.vertmenu ul li li {
+    font-family: Gilroy-Light;  
+    margin: 0;
+    line-height: 26px;
+    font-size: 16px;
+}
+.vertmenu .subCat, .chka {
+    position: absolute;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.vertmenu .subCat.plus,
+.chka:before,
+.vertmenu .subCat.minus,
+.subCat:checked + .chka:before {
+    content: 'V';
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;   
+    // font-family: Gilroy;   
+}
+.vertmenu .subCat.minus, .subCat:checked + .chka:before {
+    content: 'ᴧ';
+    font-size: 24px;
+}
+
+.vertmenu a {
+    color: #FFFFFF;
+    // font-size: 20px;
+    // font-weight:bolder;
+    text-decoration:none;
+}
+
+
+.vertmenu a.active {
+    color: #FFFFFF;
+}
+.vertmenu a:hover {
+    text-decoration: underline;
+    text-decoration-color: #5072b8;
+    // color: #FFFFFF !important;
+}
+.vertmenu > ul > li ul {
+    display: none;
+}
+.vertmenu > ul > li a.active + span + ul {
+    display: block !important;
+}
+.vertmenu > ul > li .subCat:checked ~ ul {
+    display: block !important;
+}
+.vertmenu input[type=checkbox].subCat {
+    display:none;
+}
+// .vertmenu ul li li a:before {
+//     content: '\203A';
+//     font-size: 20px;
+//     padding-right: 6px;
+//     color: #FFFFFF;
+//     font-weight: bold;
+// }
+// .vertmenu > ul li li a:hover:before {
+//     color: #FFF111;
+// }
+
+
+// @import url(https://fonts.googleapis.com/css?family=Lora);
+// body {margin:0;}
+// h2 {
+//     font-family: monospace;
+//     color: #606060;
+// }
+// nav {
+//     width: 394px;
+//     height: 100%;
+//     margin: 0px;
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     // border-radius: 50px 0px 0px 0px;
+// }
+
+// ul {
+//     height: 100%;
+//     width: 394px;
+//     position: absolute;
+//     padding: 0;
+//     border-radius: 50px 0px 0px 0px;
+// }
+
+// .topmenu > li {
+//     display: block;
+//     // margin-right: 20px;
+//     position: relative;
+// }
+
+// .topmenu > li:last-child {
+//     margin-right: 0;
+// }
+
+// a {
+//     display: block;
+//     padding: 10px 15px;
+//     text-decoration: none;
+//     outline: none;
+//     font-family: 'Lora', serif;
+//     transition: .5s linear;
+// }
+
+// .angle-down {
+//     font-family: "FontAwesome";
+//     padding-left: 10px;
+// }
+// .submenu {
+//     position: absolute;
+//     top: 100%;
+//     left: 0;
+//     width: 100%;
+//     z-index: 10;
+//     // -webkit-transition: 0.5s ease-in-out;
+//     // -moz-transition: 0.5s ease-in-out;
+//     // -o-transition: 0.5s ease-in-out;
+//     // transition: 0.5s ease-in-out;
+// }
+
+// .menu ul {
+//     background: #5A98D0;
+//     display: block;
+// }
+// .menu ul a {
+//     color: #FFFFFF;
+// }
+// .menu .submenu {
+//     display: block;
+//     visibility: hidden;
+//     opacity: 0;
+//     background: #5A98D0;
+// }
+// .menu ul li:hover .submenu {
+//     visibility: visible;
+//     opacity: 1;
+// }
+
+// // .submenu li a {
+// //     border-bottom: 1px solid rgba(255,255,255,.3);
+// //     color: white;
+// // }
