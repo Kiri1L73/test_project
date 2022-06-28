@@ -2,6 +2,7 @@
     display: block;
     position: absolute;
     top: 48px;
+    z-index: 999999;
 }
 
 .img_logo{
@@ -12,11 +13,6 @@
 .img_menu{
     position: fixed;
     right: 87px;
+    z-index: 999999;
 }
 
-.img_fon{
-    position: fixed;
-    top: 130px;
-    height: 250px;
-    width: 100%;
-}

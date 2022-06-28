@@ -1,0 +1,84 @@
+//- "шапка"
+
+.blog_head_fon {
+    position: absolute;
+    display: block;
+    top: 130px;
+    height: 250px;
+    width: 100%;
+}
+
+.img_fon {
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+.head_text {
+    font-family: Gilroy-SemiBold;
+    font-size: 44px;
+    color: #FFFFFF;
+    line-height: 74px;
+    letter-spacing: 0.05em;
+    position: relative;
+    text-align: center;
+    letter-spacing: 4%;
+    top: -210px;
+}
+
+.head_info {
+    font-family: Gilroy-Light;
+    margin: 0;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 4%;
+    color: #FFFFFF;
+    opacity: 40%;
+    position: relative;
+    text-align: center;
+    top: -190px;
+}
+
+//- Поиск
+.search {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 56px;
+    margin: 0;
+    top: 436px;
+}
+
+.searchbar {
+    font-family: Gilroy-Light;
+    font-size: 16px;
+    width: 78%;
+    height: 56px;
+    color: #000000;
+    background: #F4F4F4;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    padding-left: 72px;
+}
+
+.searchbar::placeholder {
+    opacity: 0.3;
+    color: #1F3F68;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 60%;
+}
+
+.button {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    top: 19px;
+    left: 12%;
+    transition: all .1s;
+    transition-delay: .1s;
+}
