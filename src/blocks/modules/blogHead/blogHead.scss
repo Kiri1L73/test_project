@@ -1,14 +1,15 @@
-//- "шапка"
-
+// - "шапка"
 .blog_head_fon {
-    position: absolute;
+    position: relative;
     display: block;
-    top: 130px;
     height: 250px;
     width: 100%;
+    overflow: hidden;
+    z-index: 0;
 }
 
 .img_fon {
+    display: block;
     position: relative;
     height: 250px;
     width: 100%;
@@ -43,24 +44,27 @@
 .search {
     position: relative;
     display: block;
-    width: 100%;
+    width: 80%;
     height: 56px;
     margin: 0;
-    top: 436px;
+    top: 46px;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 0;
+    margin-bottom: 48px;
 }
 
 .searchbar {
+    position: relative;
     font-family: Gilroy-Light;
     font-size: 16px;
-    width: 78%;
+    width: 100%;
     height: 56px;
     color: #000000;
     background: #F4F4F4;
     border: none;
     outline: none;
     border-radius: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
     text-align: left;
     padding-left: 72px;
 }
@@ -78,7 +82,7 @@
     width: 18px;
     position: absolute;
     top: 19px;
-    left: 12%;
+    left: 18px;
     transition: all .1s;
     transition-delay: .1s;
 }
