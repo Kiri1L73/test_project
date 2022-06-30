@@ -43,7 +43,7 @@
     width: 220px;
     height: 56px;
     top: 180px;
-    right: 10%;
+    right: 15%;
     background: #5A98D0;
     border-radius: 10px;    
 
@@ -58,12 +58,130 @@
 }
 
 hr {
+    position: absolute;
     display: block;
     height: 0px;
     width: 90%;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
+    border: 1px solid #FFFFFF;
+    margin: 0;
+    top: 391px;
     padding: 0;
     opacity: 40%;
+}
+
+.contacts{
+    position: absolute;
+    display: block;
+    left: 213px;
+    top: 488px;
+    width: 276px;
+}
+
+.contact1logo{
+    font-family: Gilroy-Light;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+}
+
+.contacttext{
+    font-family: Gilroy-Light;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-right: 16px;
+    letter-spacing: 0.05em;
+}
+.contacts1, .contacts2, .contacts3, .contacts4{
+    display: flex;
+    font-family: Gilroy-Light;  
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+
+.contacts a {
+    color: #ffffff;
+    text-decoration-line: none;
+    margin-right: 16px;
+    margin-top: 24px;
+    letter-spacing: 5%;
+}
+
+.about_us{
+    position: absolute;
+    display: block;
+    width: 165px;
+    top: 487px;
+    left: 613px;
+}
+
+.about_us a{
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-family: Gilroy-Light;  
+    margin: 0;
+    font-size: 16px;
+    text-decoration-line: none;
+    margin-right: 16px;
+    margin-top: 24px;
+    letter-spacing: 5%;
+}
+
+.about_us h4{
+    color: #ffffff;
+    font-family: Gilroy-Light;
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 5%;
+}
+
+.follow_us{
+    position: absolute;
+    display: block;
+    width: 165px;
+    top: 487px;
+    left: 853px;
+}
+
+.follow_us a{
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-family: Gilroy-Light;  
+    margin: 0;
+    font-size: 16px;
+    text-decoration-line: none;
+    margin-right: 16px;
+    margin-top: 24px;
+    letter-spacing: 5%;
+}
+
+.follow_us h4{
+    color: #ffffff;
+    font-family: Gilroy-Light;
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 5%;
+}
+
+.footer h5{
+    position: absolute;
+    top: 779px;
+    left: 213px;
+    color: #ffffff;
+    font-family: Gilroy-Light;
+    margin: 0;
+    margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 5%;
+    opacity: 0.4;   
 }

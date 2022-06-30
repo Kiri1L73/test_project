@@ -33,3 +33,39 @@
          /* Если браузер не поддерживает woff2, загрузит woff */
          url("/fonts/Gilroy-SemiBold.woff") format("woff");
 }
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy-Medium.woff"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/Gilroy-Medium.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Galien-Bold";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Galien-Bold.woff"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/Galien-Bold.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/Galien-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Galien-Book";
+    font-style: normal;
+    font-weight: 400;
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Galien-Book.woff"),
+         /* Если не получилось, загрузит woff2 */
+         url("/fonts/Galien-Book.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("/fonts/Galien-Book.woff") format("woff");
+}
