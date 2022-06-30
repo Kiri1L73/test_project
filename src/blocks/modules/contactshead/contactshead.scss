@@ -1,0 +1,43 @@
+// - "шапка"
+.blog_head_fon {
+    position: relative;
+    display: block;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    margin-bottom: 60px;
+}
+
+.img_fon {
+    display: block;
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+.head_text {
+    font-family: Gilroy-SemiBold;
+    font-size: 44px;
+    color: #FFFFFF;
+    line-height: 74px;
+    letter-spacing: 0.05em;
+    position: relative;
+    text-align: center;
+    letter-spacing: 4%;
+    top: -210px;
+}
+
+.head_info {
+    font-family: Gilroy-Light;
+    margin: 0;
+    line-height: 30px;
+    font-size: 20px;
+    letter-spacing: 4%;
+    color: #FFFFFF;
+    opacity: 40%;
+    position: relative;
+    text-align: center;
+    top: -190px;
+    max-width: 780px;
+}
