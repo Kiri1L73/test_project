@@ -1,5 +1,10 @@
+script.
+        function closeDiv(){
+                document.getElementById("myDropdown").style.display = "none";
+        }
+
 <div id="myDropdown" class="menu_list">
-    <input type="image" class="menuicon" src="../img/svg/ic_menu_close.svg" alt="Close" right=20 position=fixed>
+    <input type="image" class="menuicon" src="../img/svg/ic_menu_close.svg" alt="Close" onclick="closeDiv()" right=20 position=fixed>
 
     <div class="vertmenu">
         <ul>
